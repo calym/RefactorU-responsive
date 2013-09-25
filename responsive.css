@@ -1,0 +1,85 @@
+
+
+/*sidebar is purple*/
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          padding:2px;
+          
+}
+
+body {
+	background-color:#6F5C5A ;
+	font-family: sans-serif;
+
+}
+
+.sidebar {
+	background-color:#B16E70;
+	border:solid 1px;
+	display:block;
+	float:left;
+	margin:0;
+	width:30%;
+	
+}
+
+
+nav ul li{ 
+	background-color:#443B40;
+	border:solid 1px;
+	display:inline;
+	margin:0;
+	padding-left:0;
+			
+}
+
+ul {
+	padding:0;
+	list-style:none;
+}
+.main {
+	border:solid 1px;
+	background-color: #D3C7AC;
+	margin:0;
+	width:70%;
+	display:block;
+	padding:0;
+	float:left;	
+}
+
+@media screen and (max-width: 850px) {/*adds 20px of padding on the main section when screen is smaller*/
+ .main {
+ 	padding:20px;
+ }
+}
+
+@media screen and (max-width:480px) { /*Flips the sidebar and the main section w/a small screen.*/
+.main, .sidebar {
+		display:block;
+		width:100%;
+	}
+}
+
+
+ .cats img { 		/* Yay, fluid cats! */
+ 	float:right;
+ 	width:50%;
+ 	padding:3px;
+ }
+
+ .smallcat {		/*Yay, stacking cats! */
+ 	max-width: 300px;
+ }
+
+
+@media screen and (max-width:480px) { /*Flips the horiz. menu when the screen is @480px. */
+  nav ul li {
+    display:block;
+  }  
+}
+
+

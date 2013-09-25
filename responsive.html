@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Design</title>
+    <link rel='stylesheet' type='text/css' href='responsive.css'/ media="all">
+
+  </head>
+
+    <body>
+      <nav>
+        <ul>
+          <li>Main page</li>
+          <li>Contents</li>
+          <li>Featured content</li>
+          <li>Current events</li>
+          <li>Random article</li>
+       </nav>
+
+         <ul class = "sidebar"> 
+          <li>Help</li>
+          <li>About Wikipedia</li>
+          <li>Community portal</li>
+          <li>Recent changes</li>
+          <li>Contact page</li>
+          <li>Toolbox</li>
+          <li>Print/export</li>
+          <li>Languages</li>
+          <li>Català</li>
+          <li>Česky</li>
+          <li>Deutsch</li>
+          <li>Español</li>
+          <li>Français</li>
+          <li>Italiano</li>
+          <li>Nederlands</li>
+          <li>Português</li>
+          <li>Русский</li>
+          <li>Svenska</li>
+        </ul>  
+        
+	   
+
+        <div class = "main">
+        <h1>Responsive Design</h1>
+
+        <div id = "button">
+         <p>Responsive!</p>
+        </div>
+          <p>
+          Responsive web design (RWD) is a web design approach aimed at crafting sites to provide an optimal viewing experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from mobile phones to desktop computer monitors).[1][2][3]
+          <p>
+          A site designed with RWD[1][4] adapts the layout to the viewing environment by using fluid, proportion-based grids,[5] flexible images,[6][7][8][9] and CSS3 media queries,[3][10][11] an extension of the @media rule.[12]
+          <p>
+          The fluid grid concept calls for page element sizing to be in relative units like percentages, rather than absolute units like pixels or points.[5]
+          Flexible images are also sized in relative units, so as to prevent them from displaying outside their containing element.[6]
+          <p>
+          Media queries allow the page to use different CSS style rules based on characteristics of the device the site is being displayed on, most commonly the width of the browser.
+          Server-side components (RESS) in conjunction with client-side ones such as media queries can produce faster-loading sites for access over cellular networks and also deliver richer functionality/usability avoiding some of the pitfalls of device-side-only solutions.[13]
+        
+          <h2>Related concepts</h2>
+          <p>  
+          Mobile first, unobtrusive JavaScript, and progressive enhancement[edit source]
+          "Mobile first", unobtrusive JavaScript, and progressive enhancement (strategies for when a new site design is being considered) are related concepts that predated RWD: browsers of basic mobile phones do not understand JavaScript or media queries, so the recommended practice is to create a basic web site, and enhance it for smart phones and PCs—rather than try graceful degradation to make a complex, image-heavy site work on the most basic mobile phones.[14][15][16][17]
+          <p>
+          Progressive enhancement based on browser-, device-, or feature-detection[edit source]
+          Where a web site must support basic mobile devices that lack JavaScript, browser ("user agent") detection (also called "browser sniffing"), and mobile device detection[15][18] are two ways of deducing if certain HTML and CSS features are supported (as a basis for progressive enhancement)—however, these methods are not completely reliable unless used in conjunction with a device capabilities database.
+          <p>
+          For more capable mobile phones and PCs, JavaScript frameworks like Modernizr, jQuery, and jQuery Mobile that can directly test browser support for HTML/CSS features (or identify the device or user agent) are popular. Polyfills can be used to add support for features—e.g. to support media queries (required for RWD), and enhance HTML5 support, on Internet Explorer. Feature detection also might not be completely reliable: some may report that a feature is available, when it is either missing or so poorly implemented that it is effectively nonfunctional.[19][20]
+            <div class = "cats">
+              <img src = "cat1.jpg">
+              <img src = "cat2.jpg">
+            </div>
+
+              <div class = 'imagegallery'>
+
+              <h3>Stacking Cats!</h3>
+                <img class = 'smallcat'src = "cat1.jpg">
+                <img class = 'smallcat'src = "cat2.jpg">
+                <img class = 'smallcat'src = "cat3.jpg">
+            </div>
+
+        </div>
+        
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type= "text/javascript" src = "responsive.js"></script>
+
+    </body>
+</html>
